@@ -1,3 +1,4 @@
+from labels_dict import labels_dict
 import pickle
 import cv2
 import mediapipe as mp
@@ -15,7 +16,6 @@ mp_drawing  = mp.solutions.drawing_utils
 mp_drawing_styles = mp.solutions.drawing_styles
 
 hands = mp_hands.Hands(static_image_mode=True, min_detection_confidence=0.3)
-labels_dict = {0: 'Peace',1: 'Loser', 2: 'Noice', 3: 'Swag'}
 
 while True:
     data_aux = []
