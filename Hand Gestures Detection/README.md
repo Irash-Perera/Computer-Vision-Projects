@@ -45,7 +45,7 @@ Scrreenshots from the already trained model.
 
 | Nice | Peace | Loser | Swag |
 |------|-------|-------|------|
-| <img src="./Screenshots/Nice1.png" alt="Nice" width="100" height="80"> | <img src="./Screenshots/Peace1.png" alt="Peace" width="100" height="80"> | <img src="./Screenshots/Loser1.png" alt="Loser" width="100" height="80"> | <img src="./Screenshots/Swag1.png" alt="Swag" width="100" height="80"> |
+| <img src="./Screenshots/Nice1.png" alt="Nice" width="200" height="160"> | <img src="./Screenshots/Peace1.png" alt="Peace" width="200" height="160"> | <img src="./Screenshots/Loser1.png" alt="Loser" width="200" height="160"> | <img src="./Screenshots/Swag1.png" alt="Swag" width="200" height="160"> |
 
 Note: When initializing camera, make sure to change the camera index according to your camera in `test_model.py` and `collect_images.py` scripts. 
 ```
