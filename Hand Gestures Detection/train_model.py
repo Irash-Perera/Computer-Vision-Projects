@@ -22,4 +22,8 @@ y_pred = model.predict(X_test)
 score = accuracy_score(y_test, y_pred)
 print('Accuracy:', score*100, '%')
 
+f = open('./Hand Gestures Detection/model.p', 'wb')
+pickle.dump(model, f)
+f.close()
+
 
