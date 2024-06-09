@@ -21,7 +21,7 @@ git clone https://github.com/Irash-Perera/Computer-Vision-Projects.git
 ##### 2. Install the required libraries
 Open the terminal in the project directory and run the following command.
 ```
-pip install -r requirements.txt
+pip install -r ./Hand Gestures Detection/requirements.txt
 ```
 ##### 3. Collect images for the dataset
 If you want to train your own model, you can collect images for the dataset. You can use the `collect_images.py` script to collect images. Run the python script and follow the instructions. Make sure to collect images for each hand gesture.
