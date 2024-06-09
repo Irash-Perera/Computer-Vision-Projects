@@ -1,6 +1,6 @@
 ## Object Tracking using YOLOv8 and Deep Sort
 
-<img src="https://github.com/Irash-Perera/Computer-Vision-Projects/blob/main/Object%20Tracking/people_output.gif" alt="Output File" width="400"/>
+<img src="https://github.com/Irash-Perera/Computer-Vision-Projects/blob/main/Object%20Tracking/people_output.gif" alt="Output File" width="800"/>
 
 This project is an implementation of object tracking using YOLOv8 and Deep Sort. The YOLOv8 model is used to detect objects in the video frames. The detected objects are then tracked using the Deep Sort algorithm. 
 
