@@ -5,7 +5,7 @@ from ultralytics import YOLO
 from tracker import Tracker
 
 video_path = os.path.join('.', 'data', 'people.mp4')
-video_output_path = os.path.join('.', 'data', 'people_output.mp4')
+video_output_path = os.path.join('.', 'people_output.mp4')
 cap = cv2.VideoCapture(video_path)
 
 
@@ -24,7 +24,6 @@ for i in range(10):
     colors.append((random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)))
 
 while ret:
-    ret, frame = cap.read()
     detections = yolo(frame)
     for detection in detections:
         resutls =[]
@@ -45,6 +44,9 @@ while ret:
             cv2.rectangle(frame, (int(x1),int(y1)), (int(x2), int(y2)), colors[track_id%len(colors)], 3)    
                     
     cap_output.write(frame)
+    ret, frame = cap.read()
+    if not ret:
+        break
     # if cv2.waitKey(25) & 0xFF ==27:
     #     break
 cap.release()
