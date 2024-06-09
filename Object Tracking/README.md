@@ -18,7 +18,7 @@ Open the terminal in the particular project directory and run the following comm
 pip install -r requirements.txt
 ```
 #### 3. Clone the forked deep_sort repository
-In this project I am using a forked version of the original deep_sort repository. That is because the original repository is not compatible with the latest version of TensorFlow. Clone the forked repository using the following command.
+In this project I am using a forked version of the original deep_sort repository. That is because the original repository is not compatible with the latest version of TensorFlow and other libraries. Clone the forked repository using the following command.
 ```
 git clone https://github.com/Irash-Perera/Deep-Sort.git
 ```
