@@ -1,5 +1,0 @@
-ultralytics
-scikit-learn
-tensorflow
-scikit-image
-filterpy
